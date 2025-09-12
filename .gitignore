@@ -1,0 +1,8 @@
+Local/
+.env
+node_modules/
+routes/chatbef.js
+services/nvidiaservice_stream.js
+services/nvidiaservice_openai.js
+restore-backend/
+index.html
