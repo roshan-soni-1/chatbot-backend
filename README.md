@@ -5,7 +5,7 @@
 ![Build](https://img.shields.io/badge/Build-Passing-brightgreen)
 
 
-This is the backend server for the **Groq Chat** application. It provides:
+This is the backend server for the **Chat bot** application.It uses groq and gemini api service. It provides:
 
 - Streaming chat API  
 - Available models/providers for frontend
@@ -29,7 +29,7 @@ This is the backend server for the **Groq Chat** application. It provides:
 git clone 'https://github.com/roshan-soni-1/chatbot-backend'
 ```
 ```bash
-cd groq-backend
+cd chatbot-backend
 ```
 
 2. Install dependencies:
@@ -45,7 +45,7 @@ GEMINI_API_KEY=your__api_key_here
 PORT=3000
 ```
 
-Do not commit `.env` to version control.
+> ⚠️ Do not commit `.env` to version control.
 
 ---
 
